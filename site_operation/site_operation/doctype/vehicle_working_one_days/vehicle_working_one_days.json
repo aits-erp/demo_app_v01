@@ -1,0 +1,588 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-05-11 14:26:33.638037",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "date",
+  "vehicle_no",
+  "murum_section",
+  "trip",
+  "column_break_hcvs",
+  "km",
+  "column_break_wkbz",
+  "avg",
+  "gsb_and_wmm_section",
+  "gsb",
+  "column_break_vobo",
+  "flyash",
+  "column_break_lklx",
+  "total_trip",
+  "column_break_mogg",
+  "g_km",
+  "column_break_bsym",
+  "m_avg",
+  "sand__soil__water_or_other_section",
+  "soil",
+  "column_break_rdbl",
+  "sand",
+  "column_break_iyww",
+  "water",
+  "section_break_owjh",
+  "s_total_trip",
+  "column_break_iavs",
+  "s_km",
+  "column_break_gdqr",
+  "s_avg",
+  "aggregate_section",
+  "10mm",
+  "column_break_tuel",
+  "20m_m",
+  "column_break_cfmr",
+  "bolder",
+  "column_break_mncn",
+  "dust",
+  "section_break_sric",
+  "26mm",
+  "column_break_lkff",
+  "a_total_trip",
+  "column_break_hugp",
+  "a_km",
+  "column_break_uood",
+  "a_avg",
+  "dbm_and_bitumin_section",
+  "bc",
+  "column_break_aehr",
+  "bm",
+  "column_break_juzt",
+  "dbm",
+  "section_break_wcsn",
+  "d_total_trip",
+  "column_break_dtwp",
+  "d_km",
+  "column_break_coib",
+  "d_avg",
+  "other__works_section",
+  "other_material",
+  "column_break_bleo",
+  "o_total_trip",
+  "column_break_gbzq",
+  "o_km",
+  "column_break_cmyr",
+  "o_avg",
+  "marching_section",
+  "m_km",
+  "meter_reading_section",
+  "opening",
+  "column_break_ghli",
+  "closing",
+  "column_break_dyoi",
+  "total",
+  "total_section",
+  "t_trip",
+  "column_break_aivt",
+  "t_km",
+  "diesel_details_section",
+  "open_bal",
+  "column_break_wevs",
+  "today_rec",
+  "column_break_qqcd",
+  "diesel_cons",
+  "section_break_loye",
+  "clos_bal",
+  "column_break_etfz",
+  "diesel_avg",
+  "section_break_dplu",
+  "work",
+  "column_break_iaxo",
+  "idle",
+  "column_break_ykxe",
+  "bd",
+  "section_break_dfki",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "vehicle_no",
+   "fieldtype": "Data",
+   "label": "Vehicle No"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "murum_section",
+   "fieldtype": "Section Break",
+   "label": "MURUM"
+  },
+  {
+   "fieldname": "trip",
+   "fieldtype": "Int",
+   "label": "Trip"
+  },
+  {
+   "fieldname": "column_break_hcvs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_wkbz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "gsb_and_wmm_section",
+   "fieldtype": "Section Break",
+   "label": "GSB AND WMM"
+  },
+  {
+   "fieldname": "gsb",
+   "fieldtype": "Float",
+   "label": "GSB"
+  },
+  {
+   "fieldname": "column_break_vobo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "flyash",
+   "fieldtype": "Float",
+   "label": "FLYASH"
+  },
+  {
+   "fieldname": "column_break_lklx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_trip",
+   "fieldtype": "Float",
+   "label": "Total Trip"
+  },
+  {
+   "fieldname": "column_break_mogg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "g_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_bsym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "m_avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "sand__soil__water_or_other_section",
+   "fieldtype": "Section Break",
+   "label": "SAND / SOIL / WATER OR OTHER"
+  },
+  {
+   "fieldname": "soil",
+   "fieldtype": "Float",
+   "label": "SOIL"
+  },
+  {
+   "fieldname": "column_break_rdbl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sand",
+   "fieldtype": "Float",
+   "label": "SAND"
+  },
+  {
+   "fieldname": "column_break_iyww",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "water",
+   "fieldtype": "Float",
+   "label": "WATER"
+  },
+  {
+   "fieldname": "section_break_owjh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "s_total_trip",
+   "fieldtype": "Float",
+   "label": "Total Trip"
+  },
+  {
+   "fieldname": "column_break_iavs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "s_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_gdqr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "s_avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "aggregate_section",
+   "fieldtype": "Section Break",
+   "label": "AGGREGATE"
+  },
+  {
+   "fieldname": "10mm",
+   "fieldtype": "Float",
+   "label": "10MM"
+  },
+  {
+   "fieldname": "column_break_tuel",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "20m_m",
+   "fieldtype": "Float",
+   "label": "20m m"
+  },
+  {
+   "fieldname": "column_break_cfmr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bolder",
+   "fieldtype": "Float",
+   "label": "BOLDER"
+  },
+  {
+   "fieldname": "column_break_mncn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dust",
+   "fieldtype": "Float",
+   "label": "DUST"
+  },
+  {
+   "fieldname": "section_break_sric",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "26mm",
+   "fieldtype": "Float",
+   "label": "26MM"
+  },
+  {
+   "fieldname": "column_break_lkff",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_total_trip",
+   "fieldtype": "Float",
+   "label": "Total Trip"
+  },
+  {
+   "fieldname": "column_break_hugp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_uood",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "a_avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "dbm_and_bitumin_section",
+   "fieldtype": "Section Break",
+   "label": "DBM AND BITUMIN"
+  },
+  {
+   "fieldname": "bc",
+   "fieldtype": "Float",
+   "label": "BC"
+  },
+  {
+   "fieldname": "column_break_aehr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "bm",
+   "fieldtype": "Float",
+   "label": "BM"
+  },
+  {
+   "fieldname": "column_break_juzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dbm",
+   "fieldtype": "Float",
+   "label": "DBM"
+  },
+  {
+   "fieldname": "section_break_wcsn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "d_total_trip",
+   "fieldtype": "Float",
+   "label": "Total Trip"
+  },
+  {
+   "fieldname": "column_break_dtwp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_coib",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "d_avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "other__works_section",
+   "fieldtype": "Section Break",
+   "label": "OTHER  WORKS"
+  },
+  {
+   "fieldname": "other_material",
+   "fieldtype": "Float",
+   "label": "OTHER MATERIAL"
+  },
+  {
+   "fieldname": "column_break_bleo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "o_total_trip",
+   "fieldtype": "Float",
+   "label": "Total Trip"
+  },
+  {
+   "fieldname": "column_break_gbzq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "o_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "column_break_cmyr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "o_avg",
+   "fieldtype": "Float",
+   "label": "AVG"
+  },
+  {
+   "fieldname": "marching_section",
+   "fieldtype": "Section Break",
+   "label": "Marching"
+  },
+  {
+   "fieldname": "m_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "meter_reading_section",
+   "fieldtype": "Section Break",
+   "label": "Meter Reading"
+  },
+  {
+   "fieldname": "opening",
+   "fieldtype": "Float",
+   "label": "Opening"
+  },
+  {
+   "fieldname": "column_break_ghli",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "closing",
+   "fieldtype": "Float",
+   "label": "Closing"
+  },
+  {
+   "fieldname": "column_break_dyoi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Float",
+   "label": "Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_section",
+   "fieldtype": "Section Break",
+   "label": "Total"
+  },
+  {
+   "fieldname": "t_trip",
+   "fieldtype": "Int",
+   "label": "TRIP"
+  },
+  {
+   "fieldname": "column_break_aivt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "t_km",
+   "fieldtype": "Float",
+   "label": "KM"
+  },
+  {
+   "fieldname": "diesel_details_section",
+   "fieldtype": "Section Break",
+   "label": "Diesel Details"
+  },
+  {
+   "fieldname": "open_bal",
+   "fieldtype": "Float",
+   "label": "OPEN. BAL."
+  },
+  {
+   "fieldname": "column_break_wevs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "today_rec",
+   "fieldtype": "Float",
+   "label": "TODAY REC."
+  },
+  {
+   "fieldname": "column_break_qqcd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diesel_cons",
+   "fieldtype": "Float",
+   "label": "Diesel Cons."
+  },
+  {
+   "fieldname": "section_break_loye",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "clos_bal",
+   "fieldtype": "Float",
+   "label": "Clos. Bal."
+  },
+  {
+   "fieldname": "column_break_etfz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "diesel_avg",
+   "fieldtype": "Float",
+   "label": "Diesel Avg."
+  },
+  {
+   "default": "0",
+   "fieldname": "work",
+   "fieldtype": "Check",
+   "label": "Work"
+  },
+  {
+   "default": "0",
+   "fieldname": "idle",
+   "fieldtype": "Check",
+   "label": "Idle"
+  },
+  {
+   "default": "0",
+   "fieldname": "bd",
+   "fieldtype": "Check",
+   "label": "BD"
+  },
+  {
+   "fieldname": "section_break_dplu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_iaxo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ykxe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_dfki",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-11 15:47:28.128986",
+ "modified_by": "Administrator",
+ "module": "site_operation",
+ "name": "VEHICLE WORKING ONE DAYS",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
