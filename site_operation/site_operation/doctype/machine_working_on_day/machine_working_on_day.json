@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2026-05-11 14:31:49.248257",
+ "creation": "2026-05-11 21:00:21.099392",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -91,33 +91,32 @@
   "column_break_plqj",
   "avg_10",
   "meter_reading_section",
-  "op",
-  "column_break_cpgn",
-  "clo",
-  "column_break_qupc",
-  "total_1",
+  "opening",
+  "column_break_wksi",
+  "closing",
+  "column_break_juil",
+  "m_total",
   "total_section",
-  "t_trip",
   "trip",
-  "column_break_rzrc",
-  "t_hrs",
+  "column_break_grrl",
+  "hours",
   "diesel_details_section",
-  "open_bal",
-  "column_break_tens",
+  "opening_balance",
+  "column_break_fdwy",
   "today_rec",
-  "column_break_azhq",
-  "diesel_cons",
-  "section_break_hqsg",
-  "clos_bal",
-  "column_break_qocy",
-  "diesel_avg",
-  "section_break_mazj",
+  "column_break_niha",
+  "diesel_consumption",
+  "section_break_pjrt",
+  "closing_balance",
+  "column_break_obbg",
+  "diesel_average",
+  "section_break_mkdw",
   "work",
-  "column_break_arvz",
+  "column_break_unow",
   "idel",
-  "column_break_jvdw",
+  "column_break_owjj",
   "bd",
-  "section_break_pocm",
+  "section_break_hsgr",
   "remarks"
  ],
  "fields": [
@@ -134,7 +133,7 @@
   {
    "fieldname": "machine_no",
    "fieldtype": "Data",
-   "label": "Machine. No"
+   "label": "Machine No"
   },
   {
    "fieldname": "murum_loading_section",
@@ -522,25 +521,25 @@
    "label": "Meter Reading"
   },
   {
-   "fieldname": "op",
+   "fieldname": "opening",
    "fieldtype": "Float",
-   "label": "Op"
+   "label": "Opening"
   },
   {
-   "fieldname": "column_break_cpgn",
+   "fieldname": "column_break_wksi",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "clo",
+   "fieldname": "closing",
    "fieldtype": "Float",
-   "label": "Clo"
+   "label": "Closing"
   },
   {
-   "fieldname": "column_break_qupc",
+   "fieldname": "column_break_juil",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "total_1",
+   "fieldname": "m_total",
    "fieldtype": "Float",
    "label": "Total"
   },
@@ -550,22 +549,18 @@
    "label": "Total"
   },
   {
-   "fieldname": "t_trip",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "trip",
    "fieldtype": "Int",
    "label": "Trip"
   },
   {
-   "fieldname": "column_break_rzrc",
+   "fieldname": "column_break_grrl",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "t_hrs",
+   "fieldname": "hours",
    "fieldtype": "Float",
-   "label": "HRS"
+   "label": "Hours"
   },
   {
    "fieldname": "diesel_details_section",
@@ -573,12 +568,12 @@
    "label": "Diesel Details"
   },
   {
-   "fieldname": "open_bal",
+   "fieldname": "opening_balance",
    "fieldtype": "Float",
-   "label": "Open. Bal."
+   "label": "Opening Balance"
   },
   {
-   "fieldname": "column_break_tens",
+   "fieldname": "column_break_fdwy",
    "fieldtype": "Column Break"
   },
   {
@@ -587,34 +582,34 @@
    "label": "Today Rec"
   },
   {
-   "fieldname": "column_break_azhq",
+   "fieldname": "column_break_niha",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "diesel_cons",
+   "fieldname": "diesel_consumption",
    "fieldtype": "Float",
-   "label": "Diesel Cons"
+   "label": "Diesel Consumption"
   },
   {
-   "fieldname": "section_break_hqsg",
+   "fieldname": "section_break_pjrt",
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "clos_bal",
+   "fieldname": "closing_balance",
    "fieldtype": "Float",
-   "label": "Clos. Bal"
+   "label": "Closing Balance"
   },
   {
-   "fieldname": "column_break_qocy",
+   "fieldname": "column_break_obbg",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "diesel_avg",
+   "fieldname": "diesel_average",
    "fieldtype": "Float",
-   "label": "Diesel Avg"
+   "label": "Diesel Average"
   },
   {
-   "fieldname": "section_break_mazj",
+   "fieldname": "section_break_mkdw",
    "fieldtype": "Section Break"
   },
   {
@@ -624,7 +619,7 @@
    "label": "WORK"
   },
   {
-   "fieldname": "column_break_arvz",
+   "fieldname": "column_break_unow",
    "fieldtype": "Column Break"
   },
   {
@@ -634,7 +629,7 @@
    "label": "Idel"
   },
   {
-   "fieldname": "column_break_jvdw",
+   "fieldname": "column_break_owjj",
    "fieldtype": "Column Break"
   },
   {
@@ -644,7 +639,7 @@
    "label": "BD"
   },
   {
-   "fieldname": "section_break_pocm",
+   "fieldname": "section_break_hsgr",
    "fieldtype": "Section Break"
   },
   {
@@ -656,10 +651,10 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-11 15:47:28.128986",
+ "modified": "2026-05-11 21:34:31.329141",
  "modified_by": "Administrator",
  "module": "site_operation",
- "name": "VEHICLE WORKING ONE DAYS",
+ "name": "MACHINE WORKING ON DAY",
  "owner": "Administrator",
  "permissions": [
   {

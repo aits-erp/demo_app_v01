@@ -7,4 +7,3 @@
 // 	},
 // });
 
-//this is doctype done by Komal Patil
