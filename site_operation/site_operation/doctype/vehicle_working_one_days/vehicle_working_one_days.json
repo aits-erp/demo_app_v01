@@ -107,23 +107,23 @@
   {
    "fieldname": "project",
    "fieldtype": "Link",
-   "label": "Project",
+   "label": "PROJECT",
    "options": "Project"
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "DATE"
   },
   {
    "fieldname": "vehicle_no",
    "fieldtype": "Data",
-   "label": "Vehicle No"
+   "label": "VEHICLE NO"
   },
   {
    "fieldname": "remarks",
    "fieldtype": "Small Text",
-   "label": "Remarks"
+   "label": "REMARKS"
   },
   {
    "fieldname": "murum_section",
@@ -133,7 +133,7 @@
   {
    "fieldname": "trip",
    "fieldtype": "Int",
-   "label": "Trip"
+   "label": "TRIP"
   },
   {
    "fieldname": "column_break_hcvs",
@@ -179,7 +179,7 @@
   {
    "fieldname": "total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_mogg",
@@ -234,7 +234,7 @@
   {
    "fieldname": "s_total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_iavs",
@@ -271,7 +271,7 @@
   {
    "fieldname": "20m_m",
    "fieldtype": "Float",
-   "label": "20m m"
+   "label": "20 MM"
   },
   {
    "fieldname": "column_break_cfmr",
@@ -307,7 +307,7 @@
   {
    "fieldname": "a_total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_hugp",
@@ -362,7 +362,7 @@
   {
    "fieldname": "d_total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_dtwp",
@@ -399,7 +399,7 @@
   {
    "fieldname": "o_total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_gbzq",
@@ -437,7 +437,7 @@
   {
    "fieldname": "opening",
    "fieldtype": "Float",
-   "label": "Opening"
+   "label": "OPENING"
   },
   {
    "fieldname": "column_break_ghli",
@@ -446,7 +446,7 @@
   {
    "fieldname": "closing",
    "fieldtype": "Float",
-   "label": "Closing"
+   "label": "CLOSING"
   },
   {
    "fieldname": "column_break_dyoi",
@@ -455,7 +455,7 @@
   {
    "fieldname": "total",
    "fieldtype": "Float",
-   "label": "Total",
+   "label": "TOTAL",
    "read_only": 1
   },
   {
@@ -485,7 +485,7 @@
   {
    "fieldname": "open_bal",
    "fieldtype": "Float",
-   "label": "OPEN. BAL."
+   "label": "OPENING BALANCE"
   },
   {
    "fieldname": "column_break_wevs",
@@ -494,7 +494,7 @@
   {
    "fieldname": "today_rec",
    "fieldtype": "Float",
-   "label": "TODAY REC."
+   "label": "TODAY RECEIVED"
   },
   {
    "fieldname": "column_break_qqcd",
@@ -503,7 +503,7 @@
   {
    "fieldname": "diesel_cons",
    "fieldtype": "Float",
-   "label": "Diesel Cons."
+   "label": "DIESEL CONSUMPTION"
   },
   {
    "fieldname": "section_break_loye",
@@ -512,7 +512,7 @@
   {
    "fieldname": "clos_bal",
    "fieldtype": "Float",
-   "label": "Clos. Bal."
+   "label": "CLOSING BALANCE"
   },
   {
    "fieldname": "column_break_etfz",
@@ -521,19 +521,19 @@
   {
    "fieldname": "diesel_avg",
    "fieldtype": "Float",
-   "label": "Diesel Avg."
+   "label": "DIESEL AVG."
   },
   {
    "default": "0",
    "fieldname": "work",
    "fieldtype": "Check",
-   "label": "Work"
+   "label": "WORK"
   },
   {
    "default": "0",
    "fieldname": "idle",
    "fieldtype": "Check",
-   "label": "Idle"
+   "label": "IDLE"
   },
   {
    "default": "0",
@@ -561,7 +561,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-11 15:47:28.128986",
+ "modified": "2026-05-12 15:17:56.817500",
  "modified_by": "Administrator",
  "module": "site_operation",
  "name": "VEHICLE WORKING ONE DAYS",

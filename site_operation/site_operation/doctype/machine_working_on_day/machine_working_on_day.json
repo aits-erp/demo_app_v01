@@ -123,17 +123,17 @@
   {
    "fieldname": "project",
    "fieldtype": "Data",
-   "label": "Project"
+   "label": "PROJECT"
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "label": "DATE"
   },
   {
    "fieldname": "machine_no",
    "fieldtype": "Data",
-   "label": "Machine No"
+   "label": "MACHINE NO"
   },
   {
    "fieldname": "murum_loading_section",
@@ -189,7 +189,7 @@
   {
    "fieldname": "total_trip",
    "fieldtype": "Float",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_pbzw",
@@ -263,7 +263,7 @@
   {
    "fieldname": "total_trip_1",
    "fieldtype": "Int",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_qmrl",
@@ -328,8 +328,8 @@
   },
   {
    "fieldname": "mate",
-   "fieldtype": "Select",
-   "label": "Mate"
+   "fieldtype": "Float",
+   "label": "MATERIAL"
   },
   {
    "fieldname": "column_break_jvlp",
@@ -356,7 +356,7 @@
   },
   {
    "fieldname": "material",
-   "fieldtype": "Select",
+   "fieldtype": "Float",
    "label": "MATERIAL"
   },
   {
@@ -366,7 +366,7 @@
   {
    "fieldname": "total_trip2",
    "fieldtype": "Int",
-   "label": "Total trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_xokf",
@@ -421,7 +421,7 @@
   {
    "fieldname": "total_trip3",
    "fieldtype": "Int",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_unyg",
@@ -467,7 +467,7 @@
   {
    "fieldname": "total_trip_4",
    "fieldtype": "Int",
-   "label": "Total Trip"
+   "label": "TOTAL TRIP"
   },
   {
    "fieldname": "column_break_asqi",
@@ -495,7 +495,7 @@
   {
    "fieldname": "o_trip",
    "fieldtype": "Int",
-   "label": "Trip"
+   "label": "TRIP"
   },
   {
    "fieldname": "hrs_10",
@@ -523,7 +523,7 @@
   {
    "fieldname": "opening",
    "fieldtype": "Float",
-   "label": "Opening"
+   "label": "OPENING"
   },
   {
    "fieldname": "column_break_wksi",
@@ -532,7 +532,7 @@
   {
    "fieldname": "closing",
    "fieldtype": "Float",
-   "label": "Closing"
+   "label": "CLOSING"
   },
   {
    "fieldname": "column_break_juil",
@@ -541,7 +541,7 @@
   {
    "fieldname": "m_total",
    "fieldtype": "Float",
-   "label": "Total"
+   "label": "TOTAL"
   },
   {
    "fieldname": "total_section",
@@ -551,7 +551,7 @@
   {
    "fieldname": "trip",
    "fieldtype": "Int",
-   "label": "Trip"
+   "label": "TRIP"
   },
   {
    "fieldname": "column_break_grrl",
@@ -560,7 +560,7 @@
   {
    "fieldname": "hours",
    "fieldtype": "Float",
-   "label": "Hours"
+   "label": "HOURS"
   },
   {
    "fieldname": "diesel_details_section",
@@ -570,7 +570,7 @@
   {
    "fieldname": "opening_balance",
    "fieldtype": "Float",
-   "label": "Opening Balance"
+   "label": "OPENING BALANCE"
   },
   {
    "fieldname": "column_break_fdwy",
@@ -579,7 +579,7 @@
   {
    "fieldname": "today_rec",
    "fieldtype": "Float",
-   "label": "Today Rec"
+   "label": "TODAY REC"
   },
   {
    "fieldname": "column_break_niha",
@@ -588,7 +588,7 @@
   {
    "fieldname": "diesel_consumption",
    "fieldtype": "Float",
-   "label": "Diesel Consumption"
+   "label": "DIESEL CONSUMPTION"
   },
   {
    "fieldname": "section_break_pjrt",
@@ -597,7 +597,7 @@
   {
    "fieldname": "closing_balance",
    "fieldtype": "Float",
-   "label": "Closing Balance"
+   "label": "CLOSING BALANCE"
   },
   {
    "fieldname": "column_break_obbg",
@@ -606,7 +606,7 @@
   {
    "fieldname": "diesel_average",
    "fieldtype": "Float",
-   "label": "Diesel Average"
+   "label": "DIESEL AVERAGE"
   },
   {
    "fieldname": "section_break_mkdw",
@@ -626,7 +626,7 @@
    "default": "0",
    "fieldname": "idel",
    "fieldtype": "Check",
-   "label": "Idel"
+   "label": "IDEL"
   },
   {
    "fieldname": "column_break_owjj",
@@ -645,13 +645,13 @@
   {
    "fieldname": "remarks",
    "fieldtype": "Small Text",
-   "label": "Remarks"
+   "label": "REMARKS"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-05-11 21:34:31.329141",
+ "modified": "2026-05-12 14:58:24.622302",
  "modified_by": "Administrator",
  "module": "site_operation",
  "name": "MACHINE WORKING ON DAY",
